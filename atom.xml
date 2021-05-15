@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>xqyjlj</title>
   <icon>https://xqyjlj.github.io/icon.png</icon>
-  <subtitle>xqyjlj</subtitle>
+  <subtitle>小权一句两句的博客</subtitle>
   <link href="https://xqyjlj.github.io/atom.xml" rel="self"/>
   
   <link href="https://xqyjlj.github.io/"/>
-  <updated>2021-05-11T13:09:02.141Z</updated>
+  <updated>2021-05-15T17:23:01.722Z</updated>
   <id>https://xqyjlj.github.io/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>八爪鱼驱动-AT24CXX</title>
+    <link href="https://xqyjlj.github.io/2021/05/15/%E5%85%AB%E7%88%AA%E9%B1%BC%E9%A9%B1%E5%8A%A8-AT24CXX/"/>
+    <id>https://xqyjlj.github.io/2021/05/15/%E5%85%AB%E7%88%AA%E9%B1%BC%E9%A9%B1%E5%8A%A8-AT24CXX/</id>
+    <published>2021-05-15T15:19:40.000Z</published>
+    <updated>2021-05-15T17:23:01.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="驱动" scheme="https://xqyjlj.github.io/categories/%E9%A9%B1%E5%8A%A8/"/>
+    
+    
+    <category term="i2c" scheme="https://xqyjlj.github.io/tags/i2c/"/>
+    
+    <category term="驱动" scheme="https://xqyjlj.github.io/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="EEPROM" scheme="https://xqyjlj.github.io/tags/EEPROM/"/>
+    
+    <category term="iic" scheme="https://xqyjlj.github.io/tags/iic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AT24CXX系列读写算法</title>
+    <link href="https://xqyjlj.github.io/2021/05/15/AT24CXX%E7%B3%BB%E5%88%97%E8%AF%BB%E5%86%99%E7%AE%97%E6%B3%95/"/>
+    <id>https://xqyjlj.github.io/2021/05/15/AT24CXX%E7%B3%BB%E5%88%97%E8%AF%BB%E5%86%99%E7%AE%97%E6%B3%95/</id>
+    <published>2021-05-15T13:10:28.000Z</published>
+    <updated>2021-05-15T15:28:09.317Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="驱动" scheme="https://xqyjlj.github.io/categories/%E9%A9%B1%E5%8A%A8/"/>
+    
+    
+    <category term="i2c" scheme="https://xqyjlj.github.io/tags/i2c/"/>
+    
+    <category term="驱动" scheme="https://xqyjlj.github.io/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="EEPROM" scheme="https://xqyjlj.github.io/tags/EEPROM/"/>
+    
+    <category term="iic" scheme="https://xqyjlj.github.io/tags/iic/"/>
+    
+  </entry>
   
   <entry>
     <title>Keil踩坑指南</title>
