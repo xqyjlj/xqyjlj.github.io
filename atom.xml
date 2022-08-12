@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xqyjlj</title>
+  <icon>https://xqyjlj.github.io/icon.png</icon>
+  <subtitle>小权一句两句的博客</subtitle>
+  <link href="https://xqyjlj.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xqyjlj.github.io/"/>
+  <updated>2022-08-11T11:23:21.321Z</updated>
+  <id>https://xqyjlj.github.io/</id>
+  
+  <author>
+    <name>xqyjlj</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ESP32-Linux环境搭建</title>
+    <link href="https://xqyjlj.github.io/2021/09/17/ESP32-Linux%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>https://xqyjlj.github.io/2021/09/17/ESP32-Linux%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <published>2021-09-17T14:46:08.000Z</published>
+    <updated>2022-08-11T11:23:21.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="ESP32" scheme="https://xqyjlj.github.io/tags/ESP32/"/>
+    
+    <category term="Liunx" scheme="https://xqyjlj.github.io/tags/Liunx/"/>
+    
+    <category term="ESP" scheme="https://xqyjlj.github.io/tags/ESP/"/>
+    
+    <category term="搭建环境" scheme="https://xqyjlj.github.io/tags/%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ESP8266-Linux环境搭建</title>
+    <link href="https://xqyjlj.github.io/2021/09/17/ESP8266-Linux%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>https://xqyjlj.github.io/2021/09/17/ESP8266-Linux%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <published>2021-09-17T14:25:22.000Z</published>
+    <updated>2022-08-11T11:23:21.339Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="Liunx" scheme="https://xqyjlj.github.io/tags/Liunx/"/>
+    
+    <category term="ESP" scheme="https://xqyjlj.github.io/tags/ESP/"/>
+    
+    <category term="搭建环境" scheme="https://xqyjlj.github.io/tags/%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83/"/>
+    
+    <category term="ESP8266" scheme="https://xqyjlj.github.io/tags/ESP8266/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AT24CXX系列读写算法</title>
+    <link href="https://xqyjlj.github.io/2021/05/15/AT24CXX%E7%B3%BB%E5%88%97%E8%AF%BB%E5%86%99%E7%AE%97%E6%B3%95/"/>
+    <id>https://xqyjlj.github.io/2021/05/15/AT24CXX%E7%B3%BB%E5%88%97%E8%AF%BB%E5%86%99%E7%AE%97%E6%B3%95/</id>
+    <published>2021-05-15T13:10:28.000Z</published>
+    <updated>2022-08-11T11:23:21.298Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="芯片驱动" scheme="https://xqyjlj.github.io/categories/%E8%8A%AF%E7%89%87%E9%A9%B1%E5%8A%A8/"/>
+    
+    
+    <category term="i2c" scheme="https://xqyjlj.github.io/tags/i2c/"/>
+    
+    <category term="驱动" scheme="https://xqyjlj.github.io/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+    <category term="EEPROM" scheme="https://xqyjlj.github.io/tags/EEPROM/"/>
+    
+    <category term="iic" scheme="https://xqyjlj.github.io/tags/iic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Keil踩坑指南</title>
+    <link href="https://xqyjlj.github.io/2021/05/11/Keil%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/"/>
+    <id>https://xqyjlj.github.io/2021/05/11/Keil%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/</id>
+    <published>2021-05-11T08:21:30.000Z</published>
+    <updated>2022-08-11T11:23:21.395Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="踩坑指南" scheme="https://xqyjlj.github.io/categories/%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="踩坑" scheme="https://xqyjlj.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
+    
+    <category term="工具" scheme="https://xqyjlj.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="keil" scheme="https://xqyjlj.github.io/tags/keil/"/>
+    
+    <category term="jlink" scheme="https://xqyjlj.github.io/tags/jlink/"/>
+    
+  </entry>
+  
+</feed>
