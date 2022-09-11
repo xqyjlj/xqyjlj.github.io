@@ -11,8 +11,6 @@ categories:
 cover: 43278.png
 ---
 
-# ESP32-Linux环境搭建
-
 ```shell
 sudo apt-get install gcc git wget make flex bison gperf python python-pip python-setuptools python-serial python-cryptography python-future python-pyparsing python-pyelftools libffi-dev libssl-dev
 mkdir -p ~/Tool/esp
@@ -24,10 +22,12 @@ tar -xzf xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz #32位
 git clone --recursive https://github.com/espressif/esp-idf.git
 sudo vim  ~/.bashrc
 ```
-
+在 vim 中补充以下命令
 ```shell
-alias get_esp32='export PATH="$HOME/Tool/esp/xtensa-esp32-elf/bin:$PATH"
-export IDF_PATH="$HOME/Tool/esp/esp-idf"'
+alias get_esp32='
+export PATH="$HOME/Tool/esp/xtensa-esp32-elf/bin:$PATH"
+export IDF_PATH="$HOME/Tool/esp/esp-idf"
+'
 ```
 
 ```shell
@@ -35,5 +35,12 @@ source ~/.bashrc
 get_esp32
 sudo apt install python-pip
 python -m pip install --user -r $IDF_PATH/requirements.txt
+```
+
+此后，只需执行以下命令便能加载其环境了
+
+```shell
+source ~/.bashrc
+get_esp32
 ```
 

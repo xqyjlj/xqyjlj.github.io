@@ -11,8 +11,6 @@ categories:
 cover: image-20210515232504831.png
 ---
 
-# AT24CXX系列读写算法
-
 ## AT24CXX容量
 
 ​	AT24C01，AT24C02，AT24C04，AT24C08，AT24C16，AT24C32，AT24C64，AT24C128，AT24C256…不同的xxx代表不同的容量。
@@ -181,10 +179,3 @@ AT24CXXX 字节地址如下(*表示无效位):
 ![image-20210515230935593](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515230935593.png)
 
 内容为：读取**AT24C04**的最后的两个字节，内容为**0x54**和**0x53**。
-
-## 代码
-
-代码地址为：[xqyjlj/octo_at24cxx: 八爪鱼驱动-AT24Cxx (github.com)](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/https://github.com/xqyjlj/octo_at24cxx)
-
-具体读写代码解析请看下一篇博文：{% post_link 八爪鱼驱动-AT24CXX %}
-
