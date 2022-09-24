@@ -2,9 +2,10 @@
 title: ESP8266-Linux环境搭建
 date: 2021-09-17 22:25:22
 tags:
-	- ESP8266
-	- Liunx
-	- ESP
+	- esp8266
+	- linux
+	- ubuntu
+	- esp
 	- 搭建环境
 categories:
     - 开发环境

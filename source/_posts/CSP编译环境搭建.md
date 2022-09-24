@@ -2,8 +2,12 @@
 title: CSP编译环境搭建
 date: 2022-08-21 18:14:21
 tags:
+	- .net
+	- dotnet
+	- visual-studio
 	- 搭建环境
 categories:
+    - 开发环境
     - CSP
 cover: 100575554_p0.jpg
 ---

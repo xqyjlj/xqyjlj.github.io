@@ -4,8 +4,9 @@ date: 2021-05-15 21:10:28
 tags:
 	- i2c
 	- 驱动
-	- EEPROM
+	- eeprom
 	- iic
+	- at24cxx
 categories:
     - 芯片驱动
 cover: image-20210515232504831.png

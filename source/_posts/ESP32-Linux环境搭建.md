@@ -2,9 +2,10 @@
 title: ESP32-Linux环境搭建
 date: 2021-09-17 22:46:08
 tags:
-	- ESP32
-	- Liunx
-	- ESP
+	- esp32
+	- linux
+	- ubuntu
+	- esp
 	- 搭建环境
 categories:
     - 开发环境
