@@ -34,6 +34,7 @@ jobs:
           git config --global user.name "小权一句两句"
           npm install hexo-cli -g
           npm install
+          npm install https://github.com/xcodebuild/hexo-asset-image.git
           npm install hexo-deployer-git --save
 
       - name: Deploy
