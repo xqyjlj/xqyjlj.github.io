@@ -19,11 +19,11 @@ Jlink版本和Keil的版本都过高，且由于Jlink为盗版，导致闪退。
 
 具体为**JLinkARM.dll**这个插件搞鬼。
 
-![204450uuy2lquzqy2ysiuq](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/204450uuy2lquzqy2ysiuq.png)
+![204450uuy2lquzqy2ysiuq](Keil踩坑指南/204450uuy2lquzqy2ysiuq.png)
 
 这个插件的来源为
 
-![2101134fursl3bf4fbzavf](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/2101134fursl3bf4fbzavf.png)
+![2101134fursl3bf4fbzavf](Keil踩坑指南/2101134fursl3bf4fbzavf.png)
 
 也就是我们装Jlink驱动的时候，勾选了这个选项，而导致这个毒瘤插件进入Keil，以后安装插件的时候取消安装就可以了。
 
@@ -31,7 +31,7 @@ Jlink版本和Keil的版本都过高，且由于Jlink为盗版，导致闪退。
 
 1. 找到”Keil安装目录“\ARM\Segger
 
-   ![image-20210511164245801](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511164245801.png)
+   ![image-20210511164245801](Keil踩坑指南/image-20210511164245801.png)
 
 2. 下载老版Keil的驱动：https://xqyjlj.lanzoui.com/b0axo4dte ；密码:g1h7
 
@@ -39,7 +39,7 @@ Jlink版本和Keil的版本都过高，且由于Jlink为盗版，导致闪退。
 
 ##  Cannot load driver ‘C:\Keil_v5\ARM\Segger\JL2CM3.dll 
 
-![image-20210511171003731](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511171003731.png)
+![image-20210511171003731](Keil踩坑指南/image-20210511171003731.png)
 
 ### 原因
 
@@ -47,11 +47,11 @@ Jlink版本和Keil的版本都过高，且由于Jlink为盗版，导致闪退。
 
 具体为**JLinkARM.dll**这个插件搞鬼。
 
-![204450uuy2lquzqy2ysiuq](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/204450uuy2lquzqy2ysiuq.png)
+![204450uuy2lquzqy2ysiuq](Keil踩坑指南/204450uuy2lquzqy2ysiuq.png)
 
 这个插件的来源为
 
-![2101134fursl3bf4fbzavf](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/2101134fursl3bf4fbzavf.png)
+![2101134fursl3bf4fbzavf](Keil踩坑指南/2101134fursl3bf4fbzavf.png)
 
 也就是我们装Jlink驱动的时候，勾选了这个选项，而导致这个毒瘤插件进入Keil，以后安装插件的时候取消安装就可以了。
 
@@ -59,7 +59,7 @@ Jlink版本和Keil的版本都过高，且由于Jlink为盗版，导致闪退。
 
 1. 找到”Keil安装目录“\ARM\Segger
 
-   ![image-20210511164245801](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511164245801.png)
+   ![image-20210511164245801](Keil踩坑指南/image-20210511164245801.png)
 
 2. 下载老版Keil的驱动：https://xqyjlj.lanzoui.com/b0axo4dte ；密码:g1h7
 
@@ -82,11 +82,11 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
 
 下载之后解压，推荐解压到Keil的安装目录，避免误删除。
 
-![image-20210511200057051](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511200057051.png)
+![image-20210511200057051](Keil踩坑指南/image-20210511200057051.png)
 
 ### 创建菜单按钮
 
-![image-20210511195813214](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511195813214.png)
+![image-20210511195813214](Keil踩坑指南/image-20210511195813214.png)
 
 1. 创建应用 **Astyle All**
 
@@ -120,17 +120,17 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
    
    此为Astyle命令，具体含义请移步 http://astyle.sourceforge.net/astyle.html
 
-   ![image-20210511202934229](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511202934229.png)
+   ![image-20210511202934229](Keil踩坑指南/image-20210511202934229.png)
 
 4. 按下OK后，tool下就有以下按钮
 
-   ![image-20210511202956867](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511202956867.png)
+   ![image-20210511202956867](Keil踩坑指南/image-20210511202956867.png)
 
 5. 按下按钮之后，启动自动格式化（需要先保存文件）。
 
-   ![image-20210511203057315](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511203057315.png)
+   ![image-20210511203057315](Keil踩坑指南/image-20210511203057315.png)
 
-   ![image-20210511203144916](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511203144916.png)
+   ![image-20210511203144916](Keil踩坑指南/image-20210511203144916.png)
 
 6. 再增加一个应用**Astyle Current**
 
@@ -158,7 +158,7 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
    --verbose
    ```
 
-   ![image-20210511203208095](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511203208095.png)
+   ![image-20210511203208095](Keil踩坑指南/image-20210511203208095.png)
 
 ## Keil字体
 
@@ -170,11 +170,11 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
 
 - 安装方式
 
-  ![image-20210511205514357](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511205514357.png)
+  ![image-20210511205514357](Keil踩坑指南/image-20210511205514357.png)
 
 - 字体预览
 
-  ![image-20210511204632463](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511204632463.png)
+  ![image-20210511204632463](Keil踩坑指南/image-20210511204632463.png)
 
 - 下载地址
 
@@ -187,15 +187,15 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
 
   - 打开Keil安装目录下的uv4文件夹，找到**global.prop**文件
 
-    ![image-20210511205945676](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511205945676.png)
+    ![image-20210511205945676](Keil踩坑指南/image-20210511205945676.png)
 
   - 将font属性修改为**Consolas YaHei hybrid**
   
-    ![image-20210511210310839](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511210310839.png)
+    ![image-20210511210310839](Keil踩坑指南/image-20210511210310839.png)
   
 - 字体预览
 
-  ![image-20210511210347828](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511210347828.png)
+  ![image-20210511210347828](Keil踩坑指南/image-20210511210347828.png)
 
 - 下载地址： https://xqyjlj.lanzoui.com/b0axo56va 密码:38vm
 
@@ -203,12 +203,12 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
 
 - 编码：首选**UTF-8** （较高版本才会有）
 
-  ![image-20210511210651302](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511210651302.png)
+  ![image-20210511210651302](Keil踩坑指南/image-20210511210651302.png)
 
 - Tab大小：4
 
-  ![image-20210511210741741](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511210741741.png)
+  ![image-20210511210741741](Keil踩坑指南/image-20210511210741741.png)
 
 - 自动补全
 
-  ![image-20210511210821032](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210511210821032.png)
+  ![image-20210511210821032](Keil踩坑指南/image-20210511210821032.png)

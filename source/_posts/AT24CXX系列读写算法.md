@@ -53,24 +53,24 @@ cover: image-20210515232504831.png
 
 ​	对AT24CXXX进行读写操作时，都得先访问存储地址、比如AT24C01写一个字节的IIC时序：
 
-![image-20210515212712435](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515212712435.png)
+![image-20210515212712435](AT24CXX系列读写算法/image-20210515212712435.png)
 
 ​	先发送设备地址，收到应答后再发送需要写数据的地址(**WORD ADDRESS**)。AT24C01容量为128Byte则**WORD ADDRESS**只需要7bit就可以覆盖128Byte的数据地址。通俗的讲就是128Byte就占用了128个地址，一个7bit的数据范围为(0-127)刚好128，所以128Byte的字节地址需要一个7bit的数据来表示。
 AT24CXXX 字节地址如下(*表示无效位):
 
 |AT24CXXX	|页数	|页内字节单元数	|容量(Byte)	|WORD ADDRESS(占用bit数)	|WORD ADDRESS|
 | :-------: | :------: | :--------: |:--------: |:--------: |:--------: |
-|AT24C01|	16页	|	8Byte	|	128Byte	|7bit	| ![image-20210515223134590](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223134590.png) |
-|AT24C02|	32页	|	8Byte	|	256Byte	|8bit	| ![image-20210515223108768](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223108768.png) |
-|AT24C04	|32页	|16Byte	|512Byte	|9bit	| ![image-20210515222957329](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222957329.png) |
-|AT24C08	|64页	|16Byte	|1024Byte	|10bit	| ![image-20210515222919062](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222919062.png) |
-|AT24C16	|128页	|16Byte	|2048Byte	|11bit	|![image-20210515222847226](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222847226.png)|
-|AT24C32	|128页	|32Byte	|4096Byte	|12bit	|![image-20210515222744553](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222744553.png)|
-|AT24C64	|256页	|32Byte	|8192Byte	|13bit	|![image-20210515222708886](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222708886.png)|
-|AT24C128	|256页	|64Byte	|16384Byte	|14bit	|![image-20210515222504947](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222504947.png)|
-|AT24C256	|512页	|64Byte	|32768Byte	|15bit	|![image-20210515222424735](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222424735.png)|
-|AT24C512	|512页	|128Byte	|65536Byte	|16bit	|![image-20210515222327337](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222327337.png)|
-|AT24C1024	|512页	|256Byte	|131072Byte	|17bit	|![image-20210515222037349](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222037349.png)|
+|AT24C01|	16页	|	8Byte	|	128Byte	|7bit	| ![image-20210515223134590](AT24CXX系列读写算法/image-20210515223134590.png) |
+|AT24C02|	32页	|	8Byte	|	256Byte	|8bit	| ![image-20210515223108768](AT24CXX系列读写算法/image-20210515223108768.png) |
+|AT24C04	|32页	|16Byte	|512Byte	|9bit	| ![image-20210515222957329](AT24CXX系列读写算法/image-20210515222957329.png) |
+|AT24C08	|64页	|16Byte	|1024Byte	|10bit	| ![image-20210515222919062](AT24CXX系列读写算法/image-20210515222919062.png) |
+|AT24C16	|128页	|16Byte	|2048Byte	|11bit	|![image-20210515222847226](AT24CXX系列读写算法/image-20210515222847226.png)|
+|AT24C32	|128页	|32Byte	|4096Byte	|12bit	|![image-20210515222744553](AT24CXX系列读写算法/image-20210515222744553.png)|
+|AT24C64	|256页	|32Byte	|8192Byte	|13bit	|![image-20210515222708886](AT24CXX系列读写算法/image-20210515222708886.png)|
+|AT24C128	|256页	|64Byte	|16384Byte	|14bit	|![image-20210515222504947](AT24CXX系列读写算法/image-20210515222504947.png)|
+|AT24C256	|512页	|64Byte	|32768Byte	|15bit	|![image-20210515222424735](AT24CXX系列读写算法/image-20210515222424735.png)|
+|AT24C512	|512页	|128Byte	|65536Byte	|16bit	|![image-20210515222327337](AT24CXX系列读写算法/image-20210515222327337.png)|
+|AT24C1024	|512页	|256Byte	|131072Byte	|17bit	|![image-20210515222037349](AT24CXX系列读写算法/image-20210515222037349.png)|
 
 ## AT24CXX页地址与页内单元地址
 
@@ -87,17 +87,17 @@ AT24CXXX 字节地址如下(*表示无效位):
 
 |AT24CXXX	|页数	|页内字节单元数	|容量(Byte)	|WORD ADDRESS(占用bit数)	|页地址\|页内偏移地址|
 | :-------: | :------: | :--------: |:--------: |:--------: |:--------: |
-|AT24C01|	16页	|	8Byte	|	128Byte	|7bit	| ![image-20210515223134590](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223134590.png) |
-|AT24C02|	32页	|	8Byte	|	256Byte	|8bit	| ![image-20210515223108768](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223108768.png) |
-|AT24C04	|32页	|16Byte	|512Byte	|9bit	| ![image-20210515222957329](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222957329.png) |
-|AT24C08	|64页	|16Byte	|1024Byte	|10bit	| ![image-20210515222919062](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222919062.png) |
-|AT24C16	|128页	|16Byte	|2048Byte	|11bit	|![image-20210515222847226](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222847226.png)|
-|AT24C32	|128页	|32Byte	|4096Byte	|12bit	|![image-20210515222744553](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222744553.png)|
-|AT24C64	|256页	|32Byte	|8192Byte	|13bit	|![image-20210515222708886](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222708886.png)|
-|AT24C128	|256页	|64Byte	|16384Byte	|14bit	|![image-20210515222504947](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222504947.png)|
-|AT24C256	|512页	|64Byte	|32768Byte	|15bit	|![image-20210515222424735](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222424735.png)|
-|AT24C512	|512页	|128Byte	|65536Byte	|16bit	|![image-20210515222327337](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222327337.png)|
-|AT24C1024	|512页	|256Byte	|131072Byte	|17bit	|![image-20210515222037349](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515222037349.png)|
+|AT24C01|	16页	|	8Byte	|	128Byte	|7bit	| ![image-20210515223134590](AT24CXX系列读写算法/image-20210515223134590.png) |
+|AT24C02|	32页	|	8Byte	|	256Byte	|8bit	| ![image-20210515223108768](AT24CXX系列读写算法/image-20210515223108768.png) |
+|AT24C04	|32页	|16Byte	|512Byte	|9bit	| ![image-20210515222957329](AT24CXX系列读写算法/image-20210515222957329.png) |
+|AT24C08	|64页	|16Byte	|1024Byte	|10bit	| ![image-20210515222919062](AT24CXX系列读写算法/image-20210515222919062.png) |
+|AT24C16	|128页	|16Byte	|2048Byte	|11bit	|![image-20210515222847226](AT24CXX系列读写算法/image-20210515222847226.png)|
+|AT24C32	|128页	|32Byte	|4096Byte	|12bit	|![image-20210515222744553](AT24CXX系列读写算法/image-20210515222744553.png)|
+|AT24C64	|256页	|32Byte	|8192Byte	|13bit	|![image-20210515222708886](AT24CXX系列读写算法/image-20210515222708886.png)|
+|AT24C128	|256页	|64Byte	|16384Byte	|14bit	|![image-20210515222504947](AT24CXX系列读写算法/image-20210515222504947.png)|
+|AT24C256	|512页	|64Byte	|32768Byte	|15bit	|![image-20210515222424735](AT24CXX系列读写算法/image-20210515222424735.png)|
+|AT24C512	|512页	|128Byte	|65536Byte	|16bit	|![image-20210515222327337](AT24CXX系列读写算法/image-20210515222327337.png)|
+|AT24C1024	|512页	|256Byte	|131072Byte	|17bit	|![image-20210515222037349](AT24CXX系列读写算法/image-20210515222037349.png)|
 
 比如：
 
@@ -111,15 +111,15 @@ AT24CXXX 字节地址如下(*表示无效位):
 
 ​	**AT24C01**字节寻址需一个7bit地址：
 
-![image-20210515223533498](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223533498.png)
+![image-20210515223533498](AT24CXX系列读写算法/image-20210515223533498.png)
 
 ​	**AT24C128**字节寻址需一个14bit地址：
 
-![image-20210515223654431](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223654431.png)
+![image-20210515223654431](AT24CXX系列读写算法/image-20210515223654431.png)
 
 ​	**AT24C256**字节寻址需一个15bit地址：
 
-![image-20210515223815200](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515223815200.png)
+![image-20210515223815200](AT24CXX系列读写算法/image-20210515223815200.png)
 
 ​	以此类推，其实就是上面总结的那张表。
 
@@ -127,24 +127,24 @@ AT24CXXX 字节地址如下(*表示无效位):
 
 ​	IIC通信需要先向从设备发送设备地址，AT24CXX芯片上有A2、A1、A0引脚，通过这三个引脚我们就可以自定义AT24CXX芯片的通信地址。
 
-![image-20210515224030810](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515224030810.png)
+![image-20210515224030810](AT24CXX系列读写算法/image-20210515224030810.png)
 
 ​	地址构成如下(手册上都会有写)，比如A2、A1、A0接地，则IIC写地址为1010 0000（0xA0），读地址为1010 0001（0xA1）。当然，地址详情还是需要根据**Datasheet**来进行判断。
 
-![image-20210515224250520](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515224250520.png)
+![image-20210515224250520](AT24CXX系列读写算法/image-20210515224250520.png)
 
 ## AT24CXX 数据的读写
 
 ### 按字节写
 
-![image-20210515212712435](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515212712435.png)
+![image-20210515212712435](AT24CXX系列读写算法/image-20210515212712435.png)
 
 ### 按页写
 
-![image-20210515224836911](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515224836911.png)
+![image-20210515224836911](AT24CXX系列读写算法/image-20210515224836911.png)
 
 ​	示例：  
-​	![image-20210515225034409](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515225034409.png)
+​	![image-20210515225034409](AT24CXX系列读写算法/image-20210515225034409.png)
 
 ​	内容为：给**AT24C04**的最后的两个字节里面写入**0x54**和**0x53**。
 
@@ -153,30 +153,30 @@ AT24CXXX 字节地址如下(*表示无效位):
 ​	注意：
   往AT24CXXX中写数据时，每写一个Byte的数据页内地址+1，当前页写满后会重新覆盖掉这一页前面的数据，而不会自动跳转到下一页，但是读会自动翻页。
 
-![image-20210515225558292](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515225558292.png)
+![image-20210515225558292](AT24CXX系列读写算法/image-20210515225558292.png)
 
 ### 翻页写
 
 ​	翻页写其实就是执行一次下面的时序，也就是发送一次从机设备和字节地址最大就可以写入64字节的数据，如果要连写多页，就重新按照以下时序发送从机地址和字节地址。
 
-![image-20210515225753490](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515225753490.png)
+![image-20210515225753490](AT24CXX系列读写算法/image-20210515225753490.png)
 
 ​	即写满一页之后，还是需要手动翻页的，但是不需要重发**Start**和**Stop**了；
 
 ### 按字节读
 
-![image-20210515230405346](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515230405346.png)
+![image-20210515230405346](AT24CXX系列读写算法/image-20210515230405346.png)
 
 ### 顺序读
 
-![image-20210515230416559](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515230416559.png)
+![image-20210515230416559](AT24CXX系列读写算法/image-20210515230416559.png)
 
 ### 随机读
 
-![image-20210515230438061](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515230438061.png)
+![image-20210515230438061](AT24CXX系列读写算法/image-20210515230438061.png)
 
 ​	示例：
 
-![image-20210515230935593](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20210515230935593.png)
+![image-20210515230935593](AT24CXX系列读写算法/image-20210515230935593.png)
 
 内容为：读取**AT24C04**的最后的两个字节，内容为**0x54**和**0x53**。

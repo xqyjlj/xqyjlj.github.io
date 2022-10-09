@@ -240,6 +240,6 @@ tasks.json
 
 在SDK的根目录打开 VSCode，按下 F1，选择 Run Tasks，选择 build_app，即可编译。
 
-![image-20220917192215890](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917192215890.png)
+![image-20220917192215890](Persim-M7%20Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA(Docker)/image-20220917192215890.png)
 
-![image-20220917192248446](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917192248446.png)
+![image-20220917192248446](Persim-M7%20Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA(Docker)/image-20220917192248446.png)

@@ -114,15 +114,15 @@ sudo ln -s /lib/x86_64-linux-gnu/libncursesw.so.6 /lib/x86_64-linux-gnu/libncurs
 
 通过VSCode远程到ubuntu中这里可以参考[Window SSH 远程开发环境搭建](https://xqyjlj.github.io/2022/09/11/Window%20SSH%20%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)，将设为debug模式
 
-![image-20220917152619029](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917152619029.png)
+![image-20220917152619029](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917152619029.png)
 
 按下快捷键【 **Ctrl+Shift+`** 】新建一个终端，执行命令【 **get_persim_m7** 】获取 m7 的开发环境变量
 
-![image-20220917153316448](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917153316448.png)
+![image-20220917153316448](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917153316448.png)
 
 随后执行【 scons --target=vsc 】，创建 VSCode 配置文件
 
-![image-20220917153606528](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917153606528.png)
+![image-20220917153606528](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917153606528.png)
 
 创建 launch.json 文件
 
@@ -161,21 +161,21 @@ sudo ln -s /lib/x86_64-linux-gnu/libncursesw.so.6 /lib/x86_64-linux-gnu/libncurs
 
 其中启动方式为附着方式，即芯片原有程序依然在 Flash 运行，并开启了 JTAG 与 初始化了 DDR，加载 elf 文件后手动调整 PC 指针至 0x41000000 启动
 
-![image-20220917154342507](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917154342507.png)
+![image-20220917154342507](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917154342507.png)
 
 ## 开始调试
 
 在终端中执行命令【 DebugServerConsole -setclk 8 -port 1025 】启动 DebugServer
 
-![image-20220917154727942](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917154727942.png)
+![image-20220917154727942](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917154727942.png)
 
 点击随便下几个断点，并进入调试模式观察
 
-![image-20220917154914791](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917154914791.png)
+![image-20220917154914791](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917154914791.png)
 
 可以看到，已经可以正常调试了（全部都是远程哦）
 
-![image-20220917155143020](https://raw.githubusercontent.com/xqyjlj/xqyjlj.github.io/img/image-20220917155143020.png)
+![image-20220917155143020](通过VSCode远程调试RISC-V（基于平头哥C906）/image-20220917155143020.png)
 
 ## 裸机调试
 
