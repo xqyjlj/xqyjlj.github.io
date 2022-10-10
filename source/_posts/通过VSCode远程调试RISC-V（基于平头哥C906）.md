@@ -2,15 +2,10 @@
 title: 通过VSCode远程调试RISC-V（基于平头哥C906）
 date: 2022-09-17 10:21:05
 tags:
-	- Persim
-	- Linux
-	- 柿饼
 	- 搭建环境
 	- 远程开发
 	- RISC-V
 	- 平头哥C906
-	- 全志D1
-	- 全志F133
 categories:
     - 开发环境
 cover: 101204641_p0.jpg
