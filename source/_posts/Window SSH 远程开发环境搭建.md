@@ -2,10 +2,10 @@
 title: Window SSH 远程开发环境搭建
 date: 2022-09-11 11:21:40
 tags:
+	- 搭建环境
+	- 远程开发
 	- window
 	- linux
-	- 搭建环境
-    - 远程开发
 categories:
     - 开发环境
 cover: 幽灵公主.jpg
