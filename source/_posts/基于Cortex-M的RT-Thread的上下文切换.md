@@ -7,7 +7,8 @@ tags:
 	- 操作系统
 	- libcpu
 	- RTOS
-    - 远程开发
+    - 汇编
+    - ARM
 categories:
     - RT-Thread
 cover: 幽灵公主.jpg
