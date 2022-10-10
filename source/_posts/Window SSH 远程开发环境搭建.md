@@ -2,10 +2,8 @@
 title: Window SSH 远程开发环境搭建
 date: 2022-09-11 11:21:40
 tags:
-	- persim
+	- window
 	- linux
-	- ubuntu
-	- 柿饼
 	- 搭建环境
     - 远程开发
 categories:
