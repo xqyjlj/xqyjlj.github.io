@@ -8,7 +8,7 @@ tags:
     - STM
 categories:
     - 汇编
-cover: 幽灵公主.jpg
+cover: 101733334_p0_master1200.jpg
 ---
 
 ## 简介

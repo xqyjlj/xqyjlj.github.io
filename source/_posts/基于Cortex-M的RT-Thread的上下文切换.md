@@ -8,5 +8,5 @@ tags:
 	- libcpu
 categories:
     - RT-Thread
-cover: 幽灵公主.jpg
+cover: 101691159_p0_master1200.jpg
 ---

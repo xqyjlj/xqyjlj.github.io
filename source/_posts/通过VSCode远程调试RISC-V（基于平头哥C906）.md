@@ -8,7 +8,7 @@ tags:
 	- 平头哥C906
 categories:
     - 开发环境
-cover: 101204641_p0.jpg
+cover: 94993064_p0_master1200.jpg
 ---
 
 ## 前言

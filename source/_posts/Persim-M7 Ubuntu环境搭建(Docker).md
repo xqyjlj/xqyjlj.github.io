@@ -10,7 +10,7 @@ tags:
 	- docker
 categories:
     - 开发环境
-cover: preview.jpg
+cover: 99353013_p0_master1200.jpg
 ---
 
 ## 环境搭建
