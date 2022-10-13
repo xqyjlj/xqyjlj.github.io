@@ -4,8 +4,9 @@ date: 2022-09-11 11:21:40
 tags:
 	- 搭建环境
 	- 远程开发
-	- window
+	- ssh
 	- linux
+	- window
 categories:
     - 开发环境
 cover: 幽灵公主.jpg
@@ -22,7 +23,7 @@ sudo smbpasswd -a xqyjlj #此处用户名必须存在
 
 sudo vim /etc/samba/smb.conf
 #在配置文件中找到usershare allow guests = yes，在后面一行添加 usershare owner only = false
-sudo chmod 777 /home/ -R
+sudo chmod 755 /home/ -R
 ```
 
 添加共享文件夹，为了方便，我这里直接共享 home
