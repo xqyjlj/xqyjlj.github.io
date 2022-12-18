@@ -1,4 +1,4 @@
-name: Hexo Deploy
+name: 👷 hexo deploy
 
 on:
   push:
@@ -11,17 +11,17 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-      - name: Checkout source
+      - name: ⬇️ checkout
         uses: actions/checkout@v3
         with:
           ref: master
 
-      - name: Setup Node.js
+      - name: ⬇️ setup node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Setup Hexo
+      - name: 👷 setup hexo
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |
@@ -31,13 +31,13 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.email "xqyjlj@126.com"
-          git config --global user.name "小权一句两句"
+          git config --global user.name "xqyjlj"
           npm install hexo-cli -g
           npm install
           npm install https://github.com/xcodebuild/hexo-asset-image.git
           npm install hexo-deployer-git --save
 
-      - name: Deploy
+      - name: ⬆️ deploy
         run: |
           hexo clean
           hexo deploy
