@@ -2,6 +2,9 @@ name: 💕 mirror
 
 on:
   push:
+    branches:
+      - master
+      - gh-pages
 
 jobs:
   mirror:
