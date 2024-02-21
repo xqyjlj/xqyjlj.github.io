@@ -2,15 +2,12 @@
 title: Persim-M3 Ubuntu环境搭建(Docker)
 date: 2022-09-10 10:43:02
 tags:
-	- persim
 	- linux
-	- ubuntu
-	- 柿饼
-	- 搭建环境
+	- 环境配置
 	- docker
 categories:
     - 开发环境
-cover: preview.jpg
+cover: iStock-1144628524-2048x1024.jpg
 ---
 
 ## 环境搭建
@@ -40,7 +37,7 @@ sed -i 's/security.ubuntu.com/repo.huaweicloud.com/g' /etc/apt/sources.list
 apt-get update
 apt-get install sudo apt-utils vim net-tools inetutils-ping wget curl tree lbzip2 bzip2 git xz-utils python3 python2 python3-pip scons telnet
 apt-get install -qq libncurses5-dev lib32z1 > /dev/null
-apt-get install u-boot-tools zlib1g-dev dosfstools mtools 
+apt-get install u-boot-tools zlib1g-dev dosfstools mtools
 curl -s https://armkeil.blob.core.windows.net/developer//sitecore/shell/-/media/Files/downloads/gnu-rm/5_4-2016q3/gcc-arm-none-eabi-5_4-2016q3-20160926-linux,-d-,tar.bz2 | tar xjf - -C /opt
 curl -s https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 | tar xjf - -C /opt
 vim /root/.bashrc
@@ -65,7 +62,7 @@ vim /root/.bash_profile
 
 ```bash
 if test -f .bashrc ; then
-	source .bashrc 
+	source .bashrc
 fi
 ```
 
@@ -92,7 +89,7 @@ RUN TZ=Asia/Shanghai && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime
 
 RUN apt-get install -qq libncurses5-dev lib32z1 > /dev/null
-RUN apt-get install -y u-boot-tools zlib1g-dev dosfstools mtools 
+RUN apt-get install -y u-boot-tools zlib1g-dev dosfstools mtools
 RUN curl -s https://armkeil.blob.core.windows.net/developer//sitecore/shell/-/media/Files/downloads/gnu-rm/5_4-2016q3/gcc-arm-none-eabi-5_4-2016q3-20160926-linux,-d-,tar.bz2 | tar xjf - -C /opt
 RUN curl -s https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 | tar xjf - -C /opt
 

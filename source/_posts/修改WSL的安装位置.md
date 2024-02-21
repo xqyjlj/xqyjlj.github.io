@@ -6,7 +6,7 @@ tags:
 	- 环境配置
 categories:
     - 开发环境
-cover: 94717539_p0_master1200.jpg
+cover: wsl-1.jpg
 ---
 
 1. 点此下载离线 wsl 包 https://learn.microsoft.com/zh-cn/windows/wsl/install-manual

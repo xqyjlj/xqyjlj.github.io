@@ -2,14 +2,11 @@
 title: SSH免密登录
 date: 2022-10-14 00:10:00
 tags:
-	- 搭建环境
-	- 远程开发
+	- 环境配置
 	- ssh
-	- linux
-	- window
 categories:
     - 开发环境
-cover: 100397566_p0_master1200.jpg
+cover: ssh-big.png
 ---
 
 ## 生成公钥

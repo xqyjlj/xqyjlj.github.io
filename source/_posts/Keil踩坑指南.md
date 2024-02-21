@@ -2,13 +2,11 @@
 title: Keil踩坑指南
 date: 2021-05-11 16:21:30
 tags:
-	- 踩坑
-	- 工具
+	- 环境配置
 	- keil
-	- jlink
 categories:
-    - 踩坑指南
-cover: fef4d320f286a23fbea0671b4b9c7a0.jpg
+    - 环境配置
+cover: 5ybsyry14h.jpeg
 ---
 
 ## Keil-Jlink闪退
@@ -37,7 +35,7 @@ Jlink版本和Keil的版本都过高，且由于Jlink为盗版，导致闪退。
 
 3. 将里面的驱动解压替换现在的驱动，重启Keil就可以解决了。
 
-##  Cannot load driver ‘C:\Keil_v5\ARM\Segger\JL2CM3.dll 
+##  Cannot load driver ‘C:\Keil_v5\ARM\Segger\JL2CM3.dll
 
 ![image-20210511171003731](Keil踩坑指南/image-20210511171003731.png)
 
@@ -99,25 +97,25 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
    ```
 
    其中
-   
+
    ```shell
    "$E*.c" "$E*.h" 	##当前目录下所有的.c .h文件
    ```
-   
+
    ```shell
-   --style=allman 
-   --indent=spaces=4 
-   --indent-preproc-block 
-   --pad-header 
-   --pad-oper 
-   --unpad-paren 
-   --suffix=none 
-   --lineend=linux 
-   --convert-tabs 
-   --align-pointer=type 
+   --style=allman
+   --indent=spaces=4
+   --indent-preproc-block
+   --pad-header
+   --pad-oper
+   --unpad-paren
+   --suffix=none
+   --lineend=linux
+   --convert-tabs
+   --align-pointer=type
    --verbose
    ```
-   
+
    此为Astyle命令，具体含义请移步 http://astyle.sourceforge.net/astyle.html
 
    ![image-20210511202934229](Keil踩坑指南/image-20210511202934229.png)
@@ -145,16 +143,16 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
    ```
 
    ```shell
-   --style=allman 
-   --indent=spaces=4 
-   --indent-preproc-block 
-   --pad-header 
-   --pad-oper 
-   --unpad-paren 
-   --suffix=none 
-   --lineend=linux 
-   --convert-tabs 
-   --align-pointer=type 
+   --style=allman
+   --indent=spaces=4
+   --indent-preproc-block
+   --pad-header
+   --pad-oper
+   --unpad-paren
+   --suffix=none
+   --lineend=linux
+   --convert-tabs
+   --align-pointer=type
    --verbose
    ```
 
@@ -190,9 +188,9 @@ https://xqyjlj.lanzoui.com/b0axo50yh 密码:69tj
     ![image-20210511205945676](Keil踩坑指南/image-20210511205945676.png)
 
   - 将font属性修改为**Consolas YaHei hybrid**
-  
+
     ![image-20210511210310839](Keil踩坑指南/image-20210511210310839.png)
-  
+
 - 字体预览
 
   ![image-20210511210347828](Keil踩坑指南/image-20210511210347828.png)

@@ -6,7 +6,7 @@ tags:
 	- 环境配置
 categories:
     - 开发环境
-cover: 111564022_p0.jpg
+cover: R.jpg
 ---
 
 以下为其他 hexo 博客的跳转链接，比较详细

@@ -4,12 +4,10 @@ date: 2021-09-17 22:25:22
 tags:
 	- esp8266
 	- linux
-	- ubuntu
-	- esp
-	- 搭建环境
+	- 环境配置
 categories:
     - 开发环境
-cover: 41.png
+cover: esp8266.jpg
 ---
 
 ## ESP8266_RTOS_SDK

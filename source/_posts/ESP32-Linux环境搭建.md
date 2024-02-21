@@ -4,12 +4,11 @@ date: 2021-09-17 22:46:08
 tags:
 	- esp32
 	- linux
-	- ubuntu
-	- esp
-	- 搭建环境
+	- esp-idf
+	- 环境配置
 categories:
     - 开发环境
-cover: 43278.png
+cover: image.jpg
 ---
 
 ```shell

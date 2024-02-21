@@ -2,15 +2,12 @@
 title: Persim-M7 Ubuntu环境搭建(Docker)
 date: 2022-09-11 10:34:29
 tags:
-	- persim
 	- linux
-	- ubuntu
-	- 柿饼
-	- 搭建环境
+	- 环境配置
 	- docker
 categories:
     - 开发环境
-cover: 99353013_p0_master1200.jpg
+cover: Docker-Logo-2015-2017.jpg
 ---
 
 ## 环境搭建
@@ -40,7 +37,7 @@ sed -i 's/security.ubuntu.com/repo.huaweicloud.com/g' /etc/apt/sources.list
 apt-get update
 apt-get install sudo apt-utils vim net-tools inetutils-ping wget curl tree lbzip2 bzip2 git xz-utils python3 python2 python3-pip scons telnet openssl libssl-dev
 apt-get install -qq libncurses5-dev lib32z1 > /dev/null
-apt-get install u-boot-tools zlib1g-dev dosfstools mtools 
+apt-get install u-boot-tools zlib1g-dev dosfstools mtools
 curl -s https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1652757104469/Xuantie-900-gcc-elf-newlib-x86_64-V2.2.6-20220516.tar.gz | tar xzf - -C /opt
 vim /root/.bashrc
 ```
@@ -64,7 +61,7 @@ vim /root/.bash_profile
 
 ```bash
 if test -f .bashrc ; then
-	source .bashrc 
+	source .bashrc
 fi
 ```
 
@@ -91,7 +88,7 @@ RUN TZ=Asia/Shanghai && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime
 
 RUN apt-get install -qq libncurses5-dev lib32z1 > /dev/null
-RUN apt-get install -y u-boot-tools zlib1g-dev dosfstools mtools 
+RUN apt-get install -y u-boot-tools zlib1g-dev dosfstools mtools
 RUN curl -s https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1652757104469/Xuantie-900-gcc-elf-newlib-x86_64-V2.2.6-20220516.tar.gz | tar xzf - -C /opt
 
 RUN printf " alias get_persim_m7='\n" >> /root/.bashrc

@@ -2,13 +2,11 @@
 title: 通过VSCode远程调试RISC-V（基于平头哥C906）
 date: 2022-09-17 10:21:05
 tags:
-	- 搭建环境
-	- 远程开发
+	- 环境配置
 	- RISC-V
-	- 平头哥C906
 categories:
     - 开发环境
-cover: 94993064_p0_master1200.jpg
+cover: OIP.jpg
 ---
 
 ## 前言
@@ -74,7 +72,7 @@ help/h
 ```shell
 +---                                                    ---+
 |  T-Head Debugger Server (Build: Jul  8 2022)             |
-   User   Layer Version : 5.16.02 
+   User   Layer Version : 5.16.02
    Target Layer version : 2.0
 |  Copyright (C) 2022 T-HEAD Semiconductor Co.,Ltd.        |
 +---                                                    ---+

@@ -4,11 +4,9 @@ date: 2022-10-10 18:08:00
 tags:
     - 汇编
     - ARM
-    - LDM
-    - STM
 categories:
     - 汇编
-cover: 101733334_p0_master1200.jpg
+cover: v2-41f197be5fffcc11c39fcd4f258eddbe_1200x500.png
 ---
 
 ## 简介:
@@ -70,35 +68,35 @@ STMFD  SP，｛R0-R3｝
 
 LDMFD  SP，｛R0-R3｝
 ；执行伪指令大致是：
-；R3 = SP-4  
-；R2 = SP-8  
+；R3 = SP-4
+；R2 = SP-8
 ；R1 = SP-12
-；R0 = SP-16 
+；R0 = SP-16
 ；SP 的值未修改。
 
 STMFD  SP！，｛R0-R3｝
 ；执行伪指令大致是：
-；SP -= 4 
+；SP -= 4
 ；SP = R3
-；SP -= 4 
+；SP -= 4
 ；SP = R2
-；SP -= 4 
+；SP -= 4
 ；SP = R1
-；SP -= 4 
+；SP -= 4
 ；SP = R0
-；SP -= 4 
+；SP -= 4
 ；SP 的值已修改。
 
 STMED  SP！，｛R0-R3｝
 ；执行伪指令大致是：
 ；SP = R3
-；SP -= 4 
+；SP -= 4
 ；SP = R2
-；SP -= 4 
+；SP -= 4
 ；SP = R1
-；SP -= 4 
+；SP -= 4
 ；SP = R0
-；SP -= 4 
+；SP -= 4
 ；SP 的值已修改。
 ```
 

@@ -2,13 +2,12 @@
 title: Ubuntu QT环境搭建
 date: 2023-10-31 00:14:51
 tags:
-	- QT
-    - Ubuntu
+    - QT
     - Linux
-	- 环境配置
+    - 环境配置
 categories:
     - 开发环境
-cover: 111594158_p0.jpg
+cover: Frame-12.png
 ---
 
 # QT5

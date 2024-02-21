@@ -6,7 +6,7 @@ tags:
 	- 环境配置
 categories:
     - 开发环境
-cover: 25.png
+cover: wsl-space-header.jpg
 ---
 
 ```shell
