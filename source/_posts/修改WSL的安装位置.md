@@ -13,7 +13,8 @@ cover: wsl-1.jpg
 
 2. 将下载的文件加上 .zip 后缀，对齐进行解压。
 
-![img](修改WSL的安装位置/v2-f11fb313526d10b6bd8bb9cac4a3c169_720w.jpg)
+
+   ![img](修改WSL的安装位置/v2-f11fb313526d10b6bd8bb9cac4a3c169_720w.jpg)
 
 3. 把它的后缀改为`.zip`，然后解压到想要安装WSL的目录下。
 

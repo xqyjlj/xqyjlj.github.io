@@ -5,7 +5,7 @@ tags:
 	- 环境配置
 	- keil
 categories:
-    - 环境配置
+    - 开发环境
 cover: 5ybsyry14h.jpeg
 ---
 

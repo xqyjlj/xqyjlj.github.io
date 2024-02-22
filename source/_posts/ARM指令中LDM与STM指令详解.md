@@ -5,7 +5,7 @@ tags:
     - 汇编
     - ARM
 categories:
-    - 汇编
+    - 汇编指令
 cover: v2-41f197be5fffcc11c39fcd4f258eddbe_1200x500.png
 ---
 
