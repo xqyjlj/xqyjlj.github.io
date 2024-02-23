@@ -6,7 +6,7 @@ tags:
   - OS
 categories:
   - AUTOSAR
-cover: image.png
+cover: AUTOSAR_01.png
 ---
 
 # 前言
