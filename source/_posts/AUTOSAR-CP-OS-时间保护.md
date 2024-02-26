@@ -1,12 +1,13 @@
 ---
-title: AUTOSAR-CP-OS-时间保护
+title: AUTOSAR CP OS 时间保护详解
 date: 2024-02-22 11:44:26
 tags:
-  - AUTOSAR-CP
+  - AUTOSAR CP
   - BSW
   - OS
 categories:
   - AUTOSAR
+  - AUTOSAR OS
 cover: AUTOSAR_01.png
 ---
 
