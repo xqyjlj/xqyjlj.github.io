@@ -7,7 +7,7 @@ tags:
   - OS
 categories:
   - AUTOSAR
-  - AUTOSAR OS
+  - AUTOSAR System Services
 cover: AUTOSAR_01.png
 ---
 

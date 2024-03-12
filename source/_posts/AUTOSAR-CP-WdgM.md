@@ -7,7 +7,7 @@ tags:
   - Wdg
 categories:
   - AUTOSAR
-  - AUTOSAR Wdg
+  - AUTOSAR System Services
 cover: AUTOSAR_02.png
 ---
 

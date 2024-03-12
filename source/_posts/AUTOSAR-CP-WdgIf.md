@@ -7,7 +7,7 @@ tags:
   - Wdg
 categories:
   - AUTOSAR
-  - AUTOSAR Wdg
+  - AUTOSAR Onboard Device  Abstraction
 cover: AUTOSAR_03.png
 ---
 

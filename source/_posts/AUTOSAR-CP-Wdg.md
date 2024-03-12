@@ -7,7 +7,7 @@ tags:
   - Wdg
 categories:
   - AUTOSAR
-  - AUTOSAR Wdg
+  - AUTOSAR Microcontroller Drivers
 cover: AUTOSAR_04.png
 ---
 
