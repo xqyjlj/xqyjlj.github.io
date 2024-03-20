@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xqyjlj</title>
+  <icon>https://xqyjlj.github.io/icon.png</icon>
+  <subtitle>小权一句两句的博客</subtitle>
+  <link href="https://xqyjlj.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xqyjlj.github.io/"/>
+  <updated>2024-03-20T10:03:37.736Z</updated>
+  <id>https://xqyjlj.github.io/</id>
+  
+  <author>
+    <name>xqyjlj</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TriCore Class4,Tin3 Trap调试笔记</title>
+    <link href="https://xqyjlj.github.io/2024/03/12/note-debug-tricore-trap-class4-tin3/"/>
+    <id>https://xqyjlj.github.io/2024/03/12/note-debug-tricore-trap-class4-tin3/</id>
+    <published>2024-03-12T17:17:30.000Z</published>
+    <updated>2024-03-20T10:03:37.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发笔记" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="TriCore - Debug" scheme="https://xqyjlj.github.io/tags/TriCore-Debug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR CP 编译器抽象层</title>
+    <link href="https://xqyjlj.github.io/2024/03/11/AUTOSAR-CP-Compiler/"/>
+    <id>https://xqyjlj.github.io/2024/03/11/AUTOSAR-CP-Compiler/</id>
+    <published>2024-03-11T14:04:58.000Z</published>
+    <updated>2024-03-20T10:03:37.708Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR Common" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-Common/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR-CP-OS-多核管理</title>
+    <link href="https://xqyjlj.github.io/2024/03/07/AUTOSAR-CP-OS-%E5%A4%9A%E6%A0%B8%E7%AE%A1%E7%90%86/"/>
+    <id>https://xqyjlj.github.io/2024/03/07/AUTOSAR-CP-OS-%E5%A4%9A%E6%A0%B8%E7%AE%A1%E7%90%86/</id>
+    <published>2024-03-07T18:37:43.000Z</published>
+    <updated>2024-03-20T10:03:37.708Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR System Services" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-System-Services/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+    <category term="BSW" scheme="https://xqyjlj.github.io/tags/BSW/"/>
+    
+    <category term="OS" scheme="https://xqyjlj.github.io/tags/OS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mbw性能优化笔记</title>
+    <link href="https://xqyjlj.github.io/2024/02/27/note-perf-mbw/"/>
+    <id>https://xqyjlj.github.io/2024/02/27/note-perf-mbw/</id>
+    <published>2024-02-27T15:30:00.000Z</published>
+    <updated>2024-03-20T10:03:37.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发笔记" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="性能优化" scheme="https://xqyjlj.github.io/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>dhrystone性能优化笔记</title>
+    <link href="https://xqyjlj.github.io/2024/02/27/note-perf-dhrystone/"/>
+    <id>https://xqyjlj.github.io/2024/02/27/note-perf-dhrystone/</id>
+    <published>2024-02-27T15:04:20.000Z</published>
+    <updated>2024-03-20T10:03:37.740Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发笔记" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="性能优化" scheme="https://xqyjlj.github.io/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>libc pthread_cancel详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/27/libc-pthread_cancel/"/>
+    <id>https://xqyjlj.github.io/2024/02/27/libc-pthread_cancel/</id>
+    <published>2024-02-27T14:46:26.000Z</published>
+    <updated>2024-03-20T10:03:37.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="libc" scheme="https://xqyjlj.github.io/categories/libc/"/>
+    
+    
+    <category term="linux" scheme="https://xqyjlj.github.io/tags/linux/"/>
+    
+    <category term="pthread" scheme="https://xqyjlj.github.io/tags/pthread/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>libc futex详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/27/libc-futex/"/>
+    <id>https://xqyjlj.github.io/2024/02/27/libc-futex/</id>
+    <published>2024-02-27T14:27:33.000Z</published>
+    <updated>2024-03-20T10:03:37.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="libc" scheme="https://xqyjlj.github.io/categories/libc/"/>
+    
+    
+    <category term="linux" scheme="https://xqyjlj.github.io/tags/linux/"/>
+    
+    <category term="syscall - ipc" scheme="https://xqyjlj.github.io/tags/syscall-ipc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR CP Wdg协议栈详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/26/AUTOSAR-CP-Wdg%E5%8D%8F%E8%AE%AE%E6%A0%88/"/>
+    <id>https://xqyjlj.github.io/2024/02/26/AUTOSAR-CP-Wdg%E5%8D%8F%E8%AE%AE%E6%A0%88/</id>
+    <published>2024-02-26T14:41:52.000Z</published>
+    <updated>2024-03-20T10:03:37.720Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR 协议栈解析" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-%E5%8D%8F%E8%AE%AE%E6%A0%88%E8%A7%A3%E6%9E%90/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+    <category term="BSW" scheme="https://xqyjlj.github.io/tags/BSW/"/>
+    
+    <category term="Wdg" scheme="https://xqyjlj.github.io/tags/Wdg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR CP Watchdog Driver模块详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/23/AUTOSAR-CP-Wdg/"/>
+    <id>https://xqyjlj.github.io/2024/02/23/AUTOSAR-CP-Wdg/</id>
+    <published>2024-02-23T15:59:49.000Z</published>
+    <updated>2024-03-20T10:03:37.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR Microcontroller Drivers" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-Microcontroller-Drivers/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+    <category term="BSW" scheme="https://xqyjlj.github.io/tags/BSW/"/>
+    
+    <category term="Wdg" scheme="https://xqyjlj.github.io/tags/Wdg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR CP Watchdog Interface模块详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/23/AUTOSAR-CP-WdgIf/"/>
+    <id>https://xqyjlj.github.io/2024/02/23/AUTOSAR-CP-WdgIf/</id>
+    <published>2024-02-23T15:59:49.000Z</published>
+    <updated>2024-03-20T10:03:37.716Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR Onboard Device  Abstraction" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-Onboard-Device-Abstraction/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+    <category term="BSW" scheme="https://xqyjlj.github.io/tags/BSW/"/>
+    
+    <category term="Wdg" scheme="https://xqyjlj.github.io/tags/Wdg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR CP Watchdog Manager模块详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/23/AUTOSAR-CP-WdgM/"/>
+    <id>https://xqyjlj.github.io/2024/02/23/AUTOSAR-CP-WdgM/</id>
+    <published>2024-02-23T15:59:48.000Z</published>
+    <updated>2024-03-20T10:03:37.716Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR System Services" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-System-Services/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+    <category term="BSW" scheme="https://xqyjlj.github.io/tags/BSW/"/>
+    
+    <category term="Wdg" scheme="https://xqyjlj.github.io/tags/Wdg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AUTOSAR CP OS 时间保护详解</title>
+    <link href="https://xqyjlj.github.io/2024/02/22/AUTOSAR-CP-OS-%E6%97%B6%E9%97%B4%E4%BF%9D%E6%8A%A4/"/>
+    <id>https://xqyjlj.github.io/2024/02/22/AUTOSAR-CP-OS-%E6%97%B6%E9%97%B4%E4%BF%9D%E6%8A%A4/</id>
+    <published>2024-02-22T11:44:26.000Z</published>
+    <updated>2024-03-20T10:03:37.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AUTOSAR" scheme="https://xqyjlj.github.io/categories/AUTOSAR/"/>
+    
+    <category term="AUTOSAR System Services" scheme="https://xqyjlj.github.io/categories/AUTOSAR/AUTOSAR-System-Services/"/>
+    
+    
+    <category term="AUTOSAR CP" scheme="https://xqyjlj.github.io/tags/AUTOSAR-CP/"/>
+    
+    <category term="BSW" scheme="https://xqyjlj.github.io/tags/BSW/"/>
+    
+    <category term="OS" scheme="https://xqyjlj.github.io/tags/OS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo教程</title>
+    <link href="https://xqyjlj.github.io/2023/10/31/hexo%E6%95%99%E7%A8%8B/"/>
+    <id>https://xqyjlj.github.io/2023/10/31/hexo%E6%95%99%E7%A8%8B/</id>
+    <published>2023-10-31T00:16:03.000Z</published>
+    <updated>2024-03-20T10:03:37.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="环境配置" scheme="https://xqyjlj.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="hexo" scheme="https://xqyjlj.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu QT环境搭建</title>
+    <link href="https://xqyjlj.github.io/2023/10/31/Ubuntu-QT%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>https://xqyjlj.github.io/2023/10/31/Ubuntu-QT%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <published>2023-10-31T00:14:51.000Z</published>
+    <updated>2024-03-20T10:03:37.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="环境配置" scheme="https://xqyjlj.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="QT" scheme="https://xqyjlj.github.io/tags/QT/"/>
+    
+    <category term="Linux" scheme="https://xqyjlj.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH免密登录</title>
+    <link href="https://xqyjlj.github.io/2022/10/14/SSH%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
+    <id>https://xqyjlj.github.io/2022/10/14/SSH%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</id>
+    <published>2022-10-14T00:10:00.000Z</published>
+    <updated>2024-03-20T10:03:37.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="环境配置" scheme="https://xqyjlj.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="ssh" scheme="https://xqyjlj.github.io/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ARM指令中LDM与STM指令详解</title>
+    <link href="https://xqyjlj.github.io/2022/10/10/ARM%E6%8C%87%E4%BB%A4%E4%B8%ADLDM%E4%B8%8ESTM%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://xqyjlj.github.io/2022/10/10/ARM%E6%8C%87%E4%BB%A4%E4%B8%ADLDM%E4%B8%8ESTM%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3/</id>
+    <published>2022-10-10T18:08:00.000Z</published>
+    <updated>2024-03-20T10:03:37.704Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="汇编指令" scheme="https://xqyjlj.github.io/categories/%E6%B1%87%E7%BC%96%E6%8C%87%E4%BB%A4/"/>
+    
+    
+    <category term="汇编" scheme="https://xqyjlj.github.io/tags/%E6%B1%87%E7%BC%96/"/>
+    
+    <category term="ARM" scheme="https://xqyjlj.github.io/tags/ARM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Cortex-M3的RT-Thread的上下文切换</title>
+    <link href="https://xqyjlj.github.io/2022/10/10/%E5%9F%BA%E4%BA%8ECortex-M3%E7%9A%84RT-Thread%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%88%87%E6%8D%A2/"/>
+    <id>https://xqyjlj.github.io/2022/10/10/%E5%9F%BA%E4%BA%8ECortex-M3%E7%9A%84RT-Thread%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%88%87%E6%8D%A2/</id>
+    <published>2022-10-10T16:22:00.000Z</published>
+    <updated>2024-03-20T10:03:37.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="RT-Thread" scheme="https://xqyjlj.github.io/categories/RT-Thread/"/>
+    
+    
+    <category term="OS" scheme="https://xqyjlj.github.io/tags/OS/"/>
+    
+    <category term="Cortex-M" scheme="https://xqyjlj.github.io/tags/Cortex-M/"/>
+    
+    <category term="RT-Thread" scheme="https://xqyjlj.github.io/tags/RT-Thread/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改WSL的安装位置</title>
+    <link href="https://xqyjlj.github.io/2022/09/24/%E4%BF%AE%E6%94%B9WSL%E7%9A%84%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE/"/>
+    <id>https://xqyjlj.github.io/2022/09/24/%E4%BF%AE%E6%94%B9WSL%E7%9A%84%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE/</id>
+    <published>2022-09-24T09:24:10.000Z</published>
+    <updated>2024-03-20T10:03:37.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="环境配置" scheme="https://xqyjlj.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="WSL" scheme="https://xqyjlj.github.io/tags/WSL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改WSL启动时的默认账户</title>
+    <link href="https://xqyjlj.github.io/2022/09/24/%E4%BF%AE%E6%94%B9WSL%E5%90%AF%E5%8A%A8%E6%97%B6%E7%9A%84%E9%BB%98%E8%AE%A4%E8%B4%A6%E6%88%B7/"/>
+    <id>https://xqyjlj.github.io/2022/09/24/%E4%BF%AE%E6%94%B9WSL%E5%90%AF%E5%8A%A8%E6%97%B6%E7%9A%84%E9%BB%98%E8%AE%A4%E8%B4%A6%E6%88%B7/</id>
+    <published>2022-09-24T09:23:09.000Z</published>
+    <updated>2024-03-20T10:03:37.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="环境配置" scheme="https://xqyjlj.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="WSL" scheme="https://xqyjlj.github.io/tags/WSL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过VSCode远程调试RISC-V（基于平头哥C906）</title>
+    <link href="https://xqyjlj.github.io/2022/09/17/%E9%80%9A%E8%BF%87VSCode%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95RISC-V%EF%BC%88%E5%9F%BA%E4%BA%8E%E5%B9%B3%E5%A4%B4%E5%93%A5C906%EF%BC%89/"/>
+    <id>https://xqyjlj.github.io/2022/09/17/%E9%80%9A%E8%BF%87VSCode%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95RISC-V%EF%BC%88%E5%9F%BA%E4%BA%8E%E5%B9%B3%E5%A4%B4%E5%93%A5C906%EF%BC%89/</id>
+    <published>2022-09-17T10:21:05.000Z</published>
+    <updated>2024-03-20T10:03:37.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="开发环境" scheme="https://xqyjlj.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+    <category term="环境配置" scheme="https://xqyjlj.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="RISC-V" scheme="https://xqyjlj.github.io/tags/RISC-V/"/>
+    
+  </entry>
+  
+</feed>
